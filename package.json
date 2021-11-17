@@ -1,0 +1,27 @@
+{
+  "name": "excercise3point3",
+  "version": "1.0.0",
+  "description": "Excercises from 3.3 to ?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Francesco",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "mongoose-unique-validator": "github:blakehaswell/mongoose-unique-validator#pull/128/head",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
