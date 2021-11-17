@@ -28,8 +28,8 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "infinite-crag-54952"
+          heroku_app_name: "lit-wildwood-70639"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
-          healthcheck: https://infinite-crag-54952.herokuapp.com/health
+          healthcheck: https://lit-wildwood-70639/health
           checkstring: ok
           rollbackonhealthcheckfailed: true
