@@ -32,4 +32,3 @@ jobs:
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           healthcheck: https://lit-wildwood-70639/health
           checkstring: ok
-          rollbackonhealthcheckfailed: true
