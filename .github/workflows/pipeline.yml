@@ -28,7 +28,7 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "lit-wildwood-70639"
+          heroku_app_name: "fierce-garden-42814"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
-          healthcheck: https://lit-wildwood-70639/health
+          healthcheck: https://fierce-garden-42814.herokuapp.com/health
           checkstring: ok
